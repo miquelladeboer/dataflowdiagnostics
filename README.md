@@ -11,6 +11,7 @@ In this example we will show 3 different exampeles on how to create your own mon
 * Load data directly into a Power BI Report
 
 # Load Data into CDS entity and build Power BI report 
+First, we are going to create a new table into CDS. This table will collect all the metadata from the dataflow run. For every refresh of a dataflow, we add a record to this table. We can run multiple dataflows all to the same table. When we have build the table, we can connect the .pbix file to the CDS entity.
 
 ARCHITECTURE PICTURE
 
@@ -30,4 +31,11 @@ Clone the following git repository: git clone  https://github.com/miquelladeboer
 to get the .pbix or/and .xlsx template(s).
 
 ## Create new table in CDS
-First, we are going to create a new table into CDS. This table will collect all the metadata from the dataflow run. For every refresh of a dataflow, we add a record to this table. 
+* Navigate to https://powerapps.microsoft.com/
+* Create a new Table:
+
+* Fill in the Table name and first column name
+![An example of folder structure](images/newtable.PNG)
+
+In our example 
+![An example of folder structure](images/newtablenames.PNG=150x)
