@@ -38,4 +38,6 @@ to get the .pbix or/and .xlsx template(s).
 ![An example of folder structure](images/newtable.PNG)
 
 In our example 
-![An example of folder structure](images/newtablenames.PNG=150x)
+![An example of folder structure](images/newtablenames.PNG)
+<img src="images/newtablenames.PNG" alt="drawing" width="10"/>
+
