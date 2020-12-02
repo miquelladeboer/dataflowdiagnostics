@@ -33,12 +33,39 @@ to get the .pbix or/and .xlsx template(s).
 ## Create new table in CDS
 * Navigate to https://powerapps.microsoft.com/
 * Create a new Table:
-![An example of folder structure](images/newtable.PNG)
+
+<img src="images/newtable.PNG" width="300" height="100">
+
 * Fill in the Table name and first column name
-![test image size](images/newtablenames.PNG){:class="img-responsive"}
-![test image size](images/newtablenames.PNG){:height="50%" width="50%"}
-![test image size](images/newtablenames.PNG){:height="700px" width="400px"}
 
-In our example 
-cc
+<img src="images/newtablenames.PNG" width="300" height="700">
 
+In our example, we used:
+Display name = Dataflow Monitoring
+Primary name column:
+Display name = dataflow name
+
+We left all (more) settings to theit default.
+
+* Click `Create`
+* When the table is provisioned, click `Add column`
+
+<img src="images/addcolumn.PNG" width="500" height="120">
+
+* Fill in the Colum name 
+
+<img src="images/columnname.PNG" width="300" height="700">
+
+Display name = Dataflow ID
+Data type = Text
+
+<img src="images/datatype.PNG" width="300" height="70">
+
+We left all advanced option to the default.
+
+* click `Create`
+* Repeate these step to add the following columns:
+    * Refresh Status
+    * Refresh Time
+    * Start Time
+    * End Time
