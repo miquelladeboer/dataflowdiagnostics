@@ -33,11 +33,12 @@ to get the .pbix or/and .xlsx template(s).
 ## Create new table in CDS
 * Navigate to https://powerapps.microsoft.com/
 * Create a new Table:
-
-* Fill in the Table name and first column name
 ![An example of folder structure](images/newtable.PNG)
+* Fill in the Table name and first column name
+![test image size](images/newtablenames.PNG){:class="img-responsive"}
+![test image size](images/newtablenames.PNG){:height="50%" width="50%"}
+![test image size](images/newtablenames.PNG){:height="700px" width="400px"}
 
 In our example 
-![An example of folder structure](images/newtablenames.PNG)
-<img src="images/newtablenames.PNG" alt="drawing" width="10"/>
+cc
 
