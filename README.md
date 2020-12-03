@@ -32,40 +32,22 @@ to get the .pbix or/and .xlsx template(s).
 
 ## Create new table in CDS
 * Navigate to https://powerapps.microsoft.com/
-* Create a new Table:
+* Follow these [Instructions](https://docs.microsoft.com/en-us/powerapps/maker/common-data-service/create-custom-entity) to create a new table.
 
-<img src="images/newtable.PNG" width="300" height="100">
+    In the right pane, enter the following values, and then select `Create`.
+    * Display name = Dataflows Monitoring
+    * Column name = Dataflow ID
+* Follow the same instruction to add custom columns to the new table.
 
-* Fill in the Table name and first column name
+    In the right pane, enter the following values, and then select `Create`
+    * **Display name** *Dataflow Name*
+    * **Data type** *text*
+* Repeat adding column for the following values
+    * **Display name** *Refresh Status*, **Data type** *Text*
+    * **Display name** *Refresh Type*, **Data type** *Text*
+    * **Display name** *Start Time*, **Data type** *Date and Time*
+    * **Display name** *End Time*, **Data type** *Date and Time*
 
-<img src="images/newtablenames.PNG" width="300" height="700">
 
-In our example, we used:
-Display name = Dataflow Monitoring
-Primary name column:
-Display name = dataflow name
-
-We left all (more) settings to theit default.
-
-* Click `Create`
-* When the table is provisioned, click `Add column`
-
-<img src="images/addcolumn.PNG" width="500" height="120">
-
-* Fill in the Colum name 
-
-<img src="images/columnname.PNG" width="300" height="700">
-
-Display name = Dataflow ID
-Data type = Text
-
-<img src="images/datatype.PNG" width="300" height="70">
-
-We left all advanced option to the default.
-
-* click `Create`
-* Repeate these step to add the following columns:
-    * Refresh Status
-    * Refresh Time
-    * Start Time
-    * End Time
+## Create a dataflow
+If you do not already have one, create a Dataflow. This can be done in either [Power BI Dataflows](https://docs.microsoft.com/en-us/power-bi/transform-model/dataflows/dataflows-introduction-self-service) or [Power Apps Dataflows](https://docs.microsoft.com/en-us/powerapps/maker/common-data-service/create-and-use-dataflows).
