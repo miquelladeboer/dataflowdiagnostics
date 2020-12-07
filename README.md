@@ -16,7 +16,7 @@ Support tickets:
 
 Trigger Dataflows/Datasets sequentially
 * [When you click on button, a dataflow refresh starts
-* Shen an analytical dataflow succeeds refreshing, trigger a standard dataflow](https://github.com/miquelladeboer/dataflowdiagnostics/blob/master/all_dataflow_templates.md)
+* [When an analytical dataflow succeeds refreshing, trigger a standard dataflow](https://github.com/miquelladeboer/dataflowdiagnostics/blob/master/all_dataflow_templates.md)
 * When a dataflow refresh succeeds, trigger a power BI dataset
 * When a file in SharePoint gets updated, trigger a dataflow
 
