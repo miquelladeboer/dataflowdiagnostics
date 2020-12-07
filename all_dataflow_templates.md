@@ -22,7 +22,8 @@ Trigger Dataflows/Datasets sequentially
 
 Save dataflow meta-data
 * When a dataflow refresh completes, save meta-data to Dataverse Table
-* When a dataflow refresh completes, save meta-date to 
+* When a dataflow refresh completes, save meta-data to Exel online
+* When a dataflow refresh completes, save meta-data to Power BI Streaming dataset
 
 ## Notifications
 ### Use Case
