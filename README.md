@@ -1,5 +1,5 @@
 # Dataflow Power Automate Connector 
-In this **[POST]** you can read about the new connector to:
+In this **[LINK TO BLOGPOST]** you can read about the new connector to:
 * Refresh Power BI and Power Platform based on a trigger
 * Trigger an action based on the completion of a dataflow refresh.
 
@@ -24,3 +24,4 @@ Save dataflow meta-data
 * [When a dataflow refresh completes, save meta-data to Dataverse Table](https://miquelladeboer.github.io/dataflowdiagnostics/dataflow_monitoring_with_data_in_dataverse.html)
 * [When a dataflow refresh completes, save meta-data to Exel online](https://miquelladeboer.github.io/dataflowdiagnostics/dataflow_monitoring_with_excel.html)
 * [When a dataflow refresh completes, save meta-data to Power BI Streaming dataset](https://miquelladeboer.github.io/dataflowdiagnostics/dataflow_monitoring_with_powerbi_streaming_dataset.html)
+
