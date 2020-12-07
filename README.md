@@ -7,18 +7,20 @@ In this blog, we are going to discuss some use cases with corresponding templatr
 
 Notifications:
 * Send an email notification when a dataflow refresh status changes
-* [Send email notification on succes or failure of a dataflow](https://miquelladeboer.github.io/dataflowdiagnostics/all_dataflow_templates.html)
+* Send email notification on succes or failure of a dataflow
 * When a dataflow refresh status changes, sends a Teams notification
 
 Support tickets:
-* [When a dataflow refresh fails, send a message to service bus queue to open a support ticket](https://miquelladeboer.github.io/dataflowdiagnostics/all_dataflow_templates.html)
+* When a dataflow refresh fails, send a message to service bus queue to open a support ticket
 
 
 Trigger Dataflows/Datasets sequentially
-* [When you click on button, a dataflow refresh starts
-* [When an analytical dataflow succeeds refreshing, trigger a standard dataflow](https://miquelladeboer.github.io/dataflowdiagnostics/all_dataflow_templates.html)
+* When you click on button, a dataflow refresh starts
+* When an analytical dataflow succeeds refreshing, trigger a standard dataflow
 * When a dataflow refresh succeeds, trigger a power BI dataset
 * When a file in SharePoint gets updated, trigger a dataflow
+
+[See some examples here](https://miquelladeboer.github.io/dataflowdiagnostics/all_dataflow_templates.html)
 
 Save dataflow meta-data
 * [When a dataflow refresh completes, save meta-data to Dataverse Table](https://miquelladeboer.github.io/dataflowdiagnostics/dataflow_monitoring_with_data_in_dataverse.html)
