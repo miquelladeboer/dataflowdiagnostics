@@ -23,4 +23,4 @@ Trigger Dataflows/Datasets sequentially
 Save dataflow meta-data
 * [When a dataflow refresh completes, save meta-data to Dataverse Table](https://github.com/miquelladeboer/dataflowdiagnostics/blob/master/dataflow_monitoring_with_data_in_dataverse.md)
 * [When a dataflow refresh completes, save meta-data to Exel online](https://github.com/miquelladeboer/dataflowdiagnostics/blob/master/dataflow_monitoring_with_excel.md)
-* [When a dataflow refresh completes, save meta-data to Power BI Streaming dataset](https://github.com/miquelladeboer/dataflowdiagnostics/blob/master/dataflow_monitoring_with_powerbi_streaming_dataset.md)
+* [When a dataflow refresh completes, save meta-data to Power BI Streaming dataset](https://github.com/miquelladeboer/dataflowdiagnostics/blob/master/dataflow_monitoring_with_powerbi_streaming_dataset.html)
