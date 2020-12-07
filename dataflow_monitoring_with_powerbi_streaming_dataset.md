@@ -78,3 +78,5 @@ If you do not already have one, create a Dataflow. This can be done in either [P
 
 ![An example of folder structure](images/createyourownreport.PNG)
 
+[Go Back to Home Page](https://miquelladeboer.github.io/dataflowdiagnostics/)
+

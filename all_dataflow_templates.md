@@ -94,5 +94,6 @@ After the condition, you can specify what happens after succes or failure of the
     * **Group**: Select the Power Apps environment or the Power BI workspace you dataflow is in
     * **Dataflow**: Select your dataflow by name
 
+[Go Back to Home Page](https://miquelladeboer.github.io/dataflowdiagnostics/)
 
 
