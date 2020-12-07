@@ -1,5 +1,5 @@
 # Dataflow Power Automate Connector 
-In this **[LINK TO BLOGPOST]** you can read about the new connector to:
+In this **[BLOGPOST]** you can read about the new connector to:
 * Refresh Power BI and Power Platform based on a trigger
 * Trigger an action based on the completion of a dataflow refresh.
 
