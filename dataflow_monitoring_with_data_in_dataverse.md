@@ -1,12 +1,12 @@
-# Load Data into CDS entity and build Power BI report 
-First, we are going to create a new table into CDS. This table will collect all the metadata from the dataflow run. For every refresh of a dataflow, we add a record to this table. We can run multiple dataflows all to the same table. When we have build the table, we can connect the .pbix file to the CDS entity.
+# Load Data into Dataverse Table and build Power BI report 
+First, we are going to create a new table into Dataverse. This table will collect all the metadata from the dataflow run. For every refresh of a dataflow, we add a record to this table. We can run multiple dataflows all to the same table. When we have build the table, we can connect the .pbix file to the Dataverse Table.
 
 ![An example of folder structure](images/arc.PNG)
 ## Requirements
 
 * Download and Install [Power BI Desktop](https://www.microsoft.com/en-us/download/details.aspx?id=58494)
 
-* CDS environment (with rights to create new custom tables)
+* Dataverse environment (with rights to create new custom tables)
 
 * Power Automate Premium Licence
 
@@ -17,7 +17,7 @@ First, we are going to create a new table into CDS. This table will collect all 
 Clone the following git repository: git clone  https://github.com/miquelladeboer/dataflowdiagnostics
 to get the .pbix template
 
-## Create new table in CDS
+## Create new table in Dataverse
 * Navigate to https://powerapps.microsoft.com/
 * Follow these [Instructions](https://docs.microsoft.com/en-us/powerapps/maker/common-data-service/create-custom-entity) to create a new table.
 

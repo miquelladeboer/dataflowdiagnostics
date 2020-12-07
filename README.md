@@ -5,8 +5,9 @@ In this step-by-step example we will show you how to set up your own monitoring 
 
 You can use this dashboard to monitor your Dataflows Duration and Failure count. This way you can easily track any issues with your dataflows performance and share with others.
 
-In this example we will show 3 different exampeles on how to create your own monitoring dashboard
-* Load data into CDS entity for dataflow monitoring()
+In this example we will show 3 different exampeles on how to create your own monitoring dashboard:
+
+* Load data into Dataverse Table for dataflow monitoring
 * Load data into an Excel file on Onedrive/Sharepoint
 * Load data directly into a Power BI Report
 
@@ -23,9 +24,7 @@ Optional:
 
 * Microsoft Excel
 
-* Onedrive for Business
-
-* Sharepoint
+* Onedrive for Business/SharePoint
 
 * Power BI Service (Pro Licence)
 
