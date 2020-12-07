@@ -27,7 +27,7 @@ Optional:
 
 * Sharepoint
 
-* Power BI Service (Pro or )
+* Power BI Service (Pro Licence)
 
 ## Clone the repository
 
