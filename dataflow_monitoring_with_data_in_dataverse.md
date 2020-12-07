@@ -13,11 +13,11 @@ First, we are going to create a new table into Dataverse. This table will collec
 
 * Download and Install [Power BI Desktop](https://www.microsoft.com/en-us/download/details.aspx?id=58494)
 
-* Dataverse environment (with rights to create new custom tables)
+* [Dataverse environment](https://docs.microsoft.com/en-us/powerapps/maker/common-data-service/data-platform-intro) (with rights to create new custom tables)
 
-* Power Automate Premium Licence
+* [Power Automate Premium Licence](https://docs.microsoft.com/en-us/power-platform/admin/pricing-billing-skus)
 
-* A dataflow in Power BI or Power Platform
+* A dataflow in [Power BI Dataflows](https://docs.microsoft.com/en-us/power-bi/transform-model/dataflows/dataflows-introduction-self-service) or [Power Platform Dataflows](https://docs.microsoft.com/en-us/powerapps/maker/common-data-service/create-and-use-dataflows#:~:text=Create%20a%20dataflow%201%20Sign%20in%20to%20Power,entities%20to%20be%20stored.%20...%20Mais%20itens...%20)
 
 ## Clone the repository
 
