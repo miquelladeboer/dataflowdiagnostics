@@ -1,4 +1,10 @@
 # Load Data into Power BI Streaming Dataset and build Power BI report 
+In this step-by-step example we will show you how to set up your own monitoring dashboard for Power BI and/or Power Platform dataflows:
+
+![An example of folder structure](images/dashboard.PNG)
+
+You can use this dashboard to monitor your Dataflows Duration and Failure count. This way you can easily track any issues with your dataflows performance and share with others.
+
 First, we are going to create a new Streaming Dataset in Power BI. This dataset will collect all the metadata from the dataflow run. For every refresh of a dataflow, we add a record to this dataset. We can run multiple dataflows all to the same dataset. When we have build the data, we can build a power BI report on the data.
 
 ![An example of folder structure](images/arc3.PNG)

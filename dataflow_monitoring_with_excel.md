@@ -1,4 +1,10 @@
 # Load Data into Excel Online and build Power BI report 
+In this step-by-step example we will show you how to set up your own monitoring dashboard for Power BI and/or Power Platform dataflows:
+
+![An example of folder structure](images/dashboard.PNG)
+
+You can use this dashboard to monitor your Dataflows Duration and Failure count. This way you can easily track any issues with your dataflows performance and share with others.
+
 First, we are going to download the `.xlsx` file from this reposotory and save it on our OneDrive for Business or SharePoint. Next, we are going to create a Power Automate connector that will load meta-data from Dataflows into the excel file on the Onedrive or Sharepoint. After that, we are going to connect the Power BI file to the Excel file, so we can visualize the meta-data and start monitoring our dataflows.
 
 ![An example of folder structure](images/arc2.PNG)

@@ -1,4 +1,11 @@
 # Load Data into Dataverse Table and build Power BI report 
+In this step-by-step example we will show you how to set up your own monitoring dashboard for Power BI and/or Power Platform dataflows:
+
+![An example of folder structure](images/dashboard.PNG)
+
+You can use this dashboard to monitor your Dataflows Duration and Failure count. This way you can easily track any issues with your dataflows performance and share with others.
+
+
 First, we are going to create a new table into Dataverse. This table will collect all the metadata from the dataflow run. For every refresh of a dataflow, we add a record to this table. We can run multiple dataflows all to the same table. When we have build the table, we can connect the .pbix file to the Dataverse Table.
 
 ![An example of folder structure](images/arc.PNG)
