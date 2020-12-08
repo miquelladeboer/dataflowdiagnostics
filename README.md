@@ -26,6 +26,8 @@ Save dataflow meta-data
 * When a dataflow refresh completes, save meta-data to Exel online example
 * When a dataflow refresh completes, save meta-data to Power BI Streaming dataset example
 
+![An example of folder structure](images/dashboard.PNG)
+
 
 ## Downloads:
 [Download excel .pbix file](https://github.com/miquelladeboer/dataflowdiagnostics/blob/master/diagnostics-template-excel.pbix),
@@ -149,10 +151,9 @@ First, we are going to create a new table into Dataverse. This table will collec
 
 * A dataflow in [Power BI Dataflows](https://docs.microsoft.com/en-us/power-bi/transform-model/dataflows/dataflows-introduction-self-service) or [Power Platform Dataflows](https://docs.microsoft.com/en-us/powerapps/maker/common-data-service/create-and-use-dataflows#:~:text=Create%20a%20dataflow%201%20Sign%20in%20to%20Power,entities%20to%20be%20stored.%20...%20Mais%20itens...%20)
 
-## Clone the repository
+## Download the .pbix file
 
-Clone the following [git repository](https://github.com/miquelladeboer/dataflowdiagnostics)
-to get the .pbix template
+[Download Dataverse .pbix file](https://github.com/miquelladeboer/dataflowdiagnostics/blob/master/diagnostics-template-cds.pbix)
 
 ## Create new table in Dataverse
 * Navigate to https://powerapps.microsoft.com/
@@ -243,13 +244,12 @@ First, we are going to download the `.xlsx` file from this reposotory and save i
 
 * A dataflow in [Power BI Dataflows](https://docs.microsoft.com/en-us/power-bi/transform-model/dataflows/dataflows-introduction-self-service) or [Power Platform Dataflows](https://docs.microsoft.com/en-us/powerapps/maker/common-data-service/create-and-use-dataflows#:~:text=Create%20a%20dataflow%201%20Sign%20in%20to%20Power,entities%20to%20be%20stored.%20...%20Mais%20itens...%20)
 
-## Clone the repository
+## Download the .pbix file
 
-Clone the following [git repository](https://github.com/miquelladeboer/dataflowdiagnostics)
-to get the .pbix template and the `.xlsx` template. 
+[Download excel .pbix file](https://github.com/miquelladeboer/dataflowdiagnostics/blob/master/diagnostics-template-excel.pbix)
 
 ## Download the Excel file and Save to OneDrive
-* Downlaod the `.xlsx` file from the reposotory
+* [Dowload .xlsx file](https://github.com/miquelladeboer/dataflowdiagnostics/blob/master/dataflow_monitoring.xlsx)
 * Save the file to a location on OneDrive
 
 ## Create a dataflow
