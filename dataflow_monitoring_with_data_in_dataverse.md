@@ -21,7 +21,7 @@ First, we are going to create a new table into Dataverse. This table will collec
 
 ## Clone the repository
 
-Clone the following git repository: git clone  https://github.com/miquelladeboer/dataflowdiagnostics
+Clone the following [git repository](https://github.com/miquelladeboer/dataflowdiagnostics)
 to get the .pbix template
 
 ## Create new table in Dataverse

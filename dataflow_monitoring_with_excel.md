@@ -22,7 +22,7 @@ First, we are going to download the `.xlsx` file from this reposotory and save i
 
 ## Clone the repository
 
-Clone the following git repository: git clone  https://github.com/miquelladeboer/dataflowdiagnostics
+Clone the following [git repository](https://github.com/miquelladeboer/dataflowdiagnostics)
 to get the .pbix template and the `.xlsx` template. 
 
 ## Download the Excel file and Save to OneDrive

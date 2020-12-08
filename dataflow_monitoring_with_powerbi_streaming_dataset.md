@@ -5,7 +5,7 @@ In this step-by-step example we will show you how to set up your own monitoring 
 
 You can use this dashboard to monitor your Dataflows Duration and Failure count. This way you can easily track any issues with your dataflows performance and share with others.
 
-First, we are going to create a new Streaming Dataset in Power BI. This dataset will collect all the metadata from the dataflow run. For every refresh of a dataflow, we add a record to this dataset. We can run multiple dataflows all to the same dataset. When we have build the data, we can build a power BI report on the data.
+First, we are going to create a new Streaming Dataset in Power BI. This dataset will collect all the metadata from the dataflow run. For every refresh of a dataflow, we add a record to this dataset. We can run multiple dataflows all to the same dataset. When we have built the data, we can build a power BI report on the data.
 
 ![An example of folder structure](images/arc3.PNG)
 ## Requirements
@@ -15,7 +15,6 @@ First, we are going to create a new Streaming Dataset in Power BI. This dataset 
 * [Power Automate Premium Licence](https://docs.microsoft.com/en-us/power-platform/admin/pricing-billing-skus)
 
 * A dataflow in [Power BI Dataflows](https://docs.microsoft.com/en-us/power-bi/transform-model/dataflows/dataflows-introduction-self-service) or [Power Platform Dataflows](https://docs.microsoft.com/en-us/powerapps/maker/common-data-service/create-and-use-dataflows#:~:text=Create%20a%20dataflow%201%20Sign%20in%20to%20Power,entities%20to%20be%20stored.%20...%20Mais%20itens...%20)
-
 
 ## Create a new streaming dataset in Power BI
 * Navigate to powerbi.microsoft.com
@@ -33,7 +32,6 @@ Note: Make sure you create a streaming dataste based on the API and add the hist
     * **Value** *End Time*, **Data type** *Date and Time*
 
 ![An example of folder structure](images/addstreamingdatset.PNG)
-
 
 ## Create a dataflow
 If you do not already have one, create a Dataflow. This can be done in either [Power BI Dataflows](https://docs.microsoft.com/en-us/power-bi/transform-model/dataflows/dataflows-introduction-self-service) or [Power Apps Dataflows](https://docs.microsoft.com/en-us/powerapps/maker/common-data-service/create-and-use-dataflows).
@@ -60,13 +58,12 @@ If you do not already have one, create a Dataflow. This can be done in either [P
 * Add dynamic values to the required fields
 
     For every required field, we are going to add a dynamic value. This value is the ouput of the meta-data of the dataflow run. 
-    * click on the field  next to **Dataflow ID** and then click on the *lightning* button.
+    * click on the field next to **Dataflow ID** and then click on the *lightning* button.
     * Add the Dataflow ID as the dynamic content
 ![An example of folder structure](images/dynamicstreaming.png)
 
 
-
-    * Repeat this proces for all required fields
+    * Repeat this process for all required fields
 ![An example of folder structure](images/streamfinal.PNG)  
 
 * `Save` the flow
@@ -79,4 +76,3 @@ If you do not already have one, create a Dataflow. This can be done in either [P
 ![An example of folder structure](images/createyourownreport.PNG)
 
 [Go Back to Home Page](https://miquelladeboer.github.io/dataflowdiagnostics/)
-
