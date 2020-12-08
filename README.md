@@ -32,8 +32,8 @@ Create Dataflow Monitoring Dashboard
 
 
 ## Downloads:
-[Download excel .pbix file](https://github.com/miquelladeboer/dataflowdiagnostics/blob/master/diagnostics-template-excel.pbix),
-[Download Dataverse .pbix file](https://github.com/miquelladeboer/dataflowdiagnostics/blob/master/diagnostics-template-cds.pbix),
+[Download excel .pbit file](https://github.com/miquelladeboer/dataflowdiagnostics/blob/master/diagnostics-template-excel.pbit),
+[Download Dataverse .pbit file](https://github.com/miquelladeboer/dataflowdiagnostics/blob/master/diagnostics-template-cds.pbit),
 [Dowload .xlsx file](https://github.com/miquelladeboer/dataflowdiagnostics/blob/master/dataflow_monitoring.xlsx)
 
 # Examples
@@ -140,7 +140,7 @@ In this step-by-step example we will show you how to set up your own monitoring 
 You can use this dashboard to monitor your Dataflows Duration and Failure count. This way you can easily track any issues with your dataflows performance and share with others.
 
 
-First, we are going to create a new table into Dataverse. This table will collect all the metadata from the dataflow run. For every refresh of a dataflow, we add a record to this table. We can run multiple dataflows all to the same table. When we have build the table, we can connect the .pbix file to the Dataverse Table.
+First, we are going to create a new table into Dataverse. This table will collect all the metadata from the dataflow run. For every refresh of a dataflow, we add a record to this table. We can run multiple dataflows all to the same table. When we have build the table, we can connect the .pbit file to the Dataverse Table.
 
 ![An example of folder structure](images/arc.PNG)
 ## Requirements
@@ -153,9 +153,9 @@ First, we are going to create a new table into Dataverse. This table will collec
 
 * A dataflow in [Power BI Dataflows](https://docs.microsoft.com/en-us/power-bi/transform-model/dataflows/dataflows-introduction-self-service) or [Power Platform Dataflows](https://docs.microsoft.com/en-us/powerapps/maker/common-data-service/create-and-use-dataflows#:~:text=Create%20a%20dataflow%201%20Sign%20in%20to%20Power,entities%20to%20be%20stored.%20...%20Mais%20itens...%20)
 
-## Download the .pbix file
+## Download the .pbit file
 
-[Download Dataverse .pbix file](https://github.com/miquelladeboer/dataflowdiagnostics/blob/master/diagnostics-template-cds.pbix)
+[Download Dataverse .pbit file](https://github.com/miquelladeboer/dataflowdiagnostics/blob/master/diagnostics-template-cds.pbit)
 
 ## Create new table in Dataverse
 * Navigate to https://powerapps.microsoft.com/
@@ -214,7 +214,7 @@ If you do not already have one, create a Dataflow. This can be done in either [P
 * `Save` the flow
 
 ## Create Power BI Report
-* open the `.pbix` file
+* open the `.pbit` file
 * connect to your CDS entity **Dataflow Monitoring**
 
 In this dashboard, you can monitor, for every dataflow, in your specified time interval:
@@ -246,9 +246,9 @@ First, we are going to download the `.xlsx` file from this reposotory and save i
 
 * A dataflow in [Power BI Dataflows](https://docs.microsoft.com/en-us/power-bi/transform-model/dataflows/dataflows-introduction-self-service) or [Power Platform Dataflows](https://docs.microsoft.com/en-us/powerapps/maker/common-data-service/create-and-use-dataflows#:~:text=Create%20a%20dataflow%201%20Sign%20in%20to%20Power,entities%20to%20be%20stored.%20...%20Mais%20itens...%20)
 
-## Download the .pbix file
+## Download the .pbit file
 
-[Download excel .pbix file](https://github.com/miquelladeboer/dataflowdiagnostics/blob/master/diagnostics-template-excel.pbix)
+[Download excel .pbit file](https://github.com/miquelladeboer/dataflowdiagnostics/blob/master/diagnostics-template-excel.pbit)
 
 ## Download the Excel file and Save to OneDrive
 * [Dowload .xlsx file](https://github.com/miquelladeboer/dataflowdiagnostics/blob/master/dataflow_monitoring.xlsx)
@@ -292,7 +292,7 @@ If you do not already have one, create a Dataflow. This can be done in either [P
 * `Save` the flow
 
 ## Create Power BI Report
-* open the `.pbix` file
+* open the `.pbit` file
 * connect to your Excel file
 
 In this dashboard, you can monitor, for every dataflow, in your specified time interval:
