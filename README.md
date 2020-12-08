@@ -28,7 +28,8 @@ Save dataflow meta-data
 
 
 ## Downloads:
-[Download excel .pbix file]()
-[Download Dataverse .pbix file]()
+[Download excel .pbix file](https://github.com/miquelladeboer/dataflowdiagnostics/blob/master/diagnostics-template-excel.pbix),
+[Download Dataverse .pbix file](https://github.com/miquelladeboer/dataflowdiagnostics/blob/master/diagnostics-template-cds.pbix),
+[Dowload .xlsx file](https://github.com/miquelladeboer/dataflowdiagnostics/blob/master/dataflow_monitoring.xlsx)
 
 
