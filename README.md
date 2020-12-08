@@ -27,3 +27,8 @@ Save dataflow meta-data
 * [When a dataflow refresh completes, save meta-data to Power BI Streaming dataset example](https://miquelladeboer.github.io/dataflowdiagnostics/dataflow_monitoring_with_powerbi_streaming_dataset.html)
 
 
+## Downloads:
+[Download excel .pbix file]()
+[Download Dataverse .pbix file]()
+
+
