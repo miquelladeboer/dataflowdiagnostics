@@ -30,6 +30,6 @@ Tutorial: Create a Dataflow Monitoring Dashboard
 
 
 ## Downloads:
-[Download excel .pbit file](https://github.com/miquelladeboer/dataflowdiagnostics/blob/master/diagnostics-template-excel.pbit),
+[Download excel .pbit file](diagnostics-templates-excel.pbit),
 [Download Dataverse .pbit file](https://github.com/miquelladeboer/dataflowdiagnostics/blob/master/diagnostics-template-cds.pbit),
 [Dowload .xlsx file](https://github.com/miquelladeboer/dataflowdiagnostics/blob/master/dataflow_monitoring.xlsx)
